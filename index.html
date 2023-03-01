@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="portafolio1.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>CV Julia Monteporzi</title>
+    
+    <body>
+        
+          <div class="column1" style="background-color:rgb(189, 189, 189);">
+            <img id="myImg" src="perfiljuli.png" alt="Foto de perfil" style="width:100%;max-width:250px">
+          
+            <h5 id="personal">INFORMACIÓN PERSONAL:</h5>
+         <ul>
+               <li>
+                    Fecha de nacimiento: 11/08/2004.
+                </li>
+                <li>
+                    Dirección: Rivadavia 1443, Santo Tomé, Santa Fe, Argentina.
+                </li>
+            </ul><br> 
+            <ul>
+                <h5 id="contacto">CONTACTO:</h5>
+                    <li id="correo">
+                Gmail: juliamonteporzi@gmail.com
+                    </li>
+                    <li>
+                        Celular: 342 441-5578
+                    </li>   
+            </ul>
+          </div>
+    <div id="namyest">
+        <h1 id="name">JULIA MONTEPORZI</h1>
+         <h5 id="estudiante">ESTUDIANTE/EMPRENDEDORA</h5><br><br><br>
+    </div> 
+
+    <div id="BODY">
+    <div id="ESTUDIOS">
+        <h4 id="estudios">ESTUDIOS:</h4>
+        <p id="utn"> UNIVERSIDAD NACIONAL DEL LITORAL (UTN):</p><p>Carrera en ingeniería industrial en curso.</p><br>
+        <p id="eeso">ESCUELA SECUNDARIA "REPÚBLICA DEL PERÚ NRO 340":</p>
+        <p id="fecha">2018-2022</p>
+        <p>Bachiller con orientación en informática.</p><br>
+        <p id="liceo">INSTITUTO LICEO MUNICIPAL "FAUSTINO SAN JUAN":</p>
+        <p>2015-2022</p><br>
+        <p id="primaria">ESCUELA PRIMARIA "JUAN DE GARAY NRO 15":</p>
+        <p>2011-2017</p><br>
+    </div>
+    
+    <div id="IDIOMAS">
+    
+        <h4 id="idioma">IDIOMAS:</h4>
+    <ul>
+        <li>
+        <p id="ingles">Inglés avanzado.</p></li>
+       <li> <p>Español nativo.</p></li>
+    </ul><br>
+    </div>
+    
+    <div id="conocimientos/cursos">
+        <h4 id="conocimientos">CONOCIMIENTOS/CURSOS:</h4>
+    <ul>
+      <li><p id="herramientas">Manejo de herramientas software (Word, Excel, Canva, Visual Studio Code).</p></li> 
+        <li><p id="curso1">Curso de "Página web" de Junior Achievement.</p></li>
+    <li><p id="curso2">Curso de "Argentina programa 4.0".</p><br></li>
+    </ul>
+    </div>
+
+    <div id="EXPERIENCIA LABORAL">
+        <h4 id="exp.laboral">EXPERIENCIA LABORAL:</h4>
+        <p id="fecha2">Desde 2020</p>
+      <ul>
+        <li>
+            <p id="comparty">Creadora y dueña de <a href ="https://www.instagram.com/comparty2/?hl=es-la" id="link">"Comparty2"</a>
+        </li>
+        <li>
+            <p id="cliente">Atención al cliente (digital y fisicamente).</p>
+        </li>
+        <li>
+            <p id="ventas">Área de ventas.</p>
+        </li>
+        <li>
+            <p id="contablidad">Área de contabilidad.</p>
+        </li>
+        
+      </ul>  
+    </div>
+</div>
+            <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close"&time>s;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+          </div>
+          
+          <script>
+          // Get the modal
+          var modal = document.getElementById("myModal");
+          
+          // Get the image and insert it inside the modal - use its "alt" text as a caption
+          var img = document.getElementById("myImg");
+          var modalImg = document.getElementById("img01");
+          var captionText = document.getElementById("caption");
+          img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+          }
+          
+          // Get the <span> element that closes the modal
+          var span = document.getElementsByClassName("close")[0];
+          
+          // When the user clicks on <span> (x), close the modal
+          span.onclick = function() { 
+            modal.style.display = "none";
+          }
+          </script>
+        </body>
+  
+         

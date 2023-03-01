@@ -1,0 +1,224 @@
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 45px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  vertical-align:text-top;
+  display: inline-block;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 500px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px)
+  {}.modal-content {
+    width: 100%;
+  }
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column1 {
+    margin-left: 100px;
+    width: 30%;
+    padding: 30px;
+    height: 1300px;
+    
+    float: left;
+  }
+  
+  #name{
+    vertical-align:text-top;
+    font-size: 50px;
+    font-weight: 620;
+   
+  }
+
+  #estudiante{
+    font-size: 25px;
+    font-weight: 450;
+    vertical-align:text-top;
+  }
+  #namyest{
+    display:inline-block;
+    margin-top: 60px;
+    margin-left: 150px;
+    vertical-align:text-top;
+    
+  }
+
+#personal{
+    margin-left: 30px;
+    display: inline-block;
+}
+
+#contacto{
+   text-align: justify;
+   display: inline-block;
+}
+
+#correo{
+    text-align: justify;
+}
+
+#BODY{
+    margin-left: 50px;
+    display: inline-block;
+}
+
+#estudios
+{
+ margin-bottom: 20px;
+ display: inline-block;
+}
+
+#utn{
+    margin-bottom: 1%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 490
+}
+
+#eeso{
+    margin-bottom: 1%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 490
+}
+
+#fecha{
+    margin-bottom: 1%;
+}
+
+#liceo{
+    margin-bottom: 1%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 490
+}
+
+#primaria{
+    margin-bottom: 1%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 490
+}
+
+#ingles{
+    margin-bottom: 1%;
+}
+
+#idioma{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#conocimientos{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#curso1{
+    margin-bottom: 1%;
+    display: inline-block;
+}
+#herramientas{
+    margin-bottom: 1%;
+    display: inline-block;
+}
+
+#cliente{
+    margin-bottom: 1%;
+    display: inline-block;
+}
+
+#ventas{
+    margin-bottom: 1%;
+    display: inline-block;
+}
+
+#contabilidad{
+    margin-bottom: 1%;
+    display: inline-block;
+}
+
+#comparty{
+    margin-bottom: 1%;
+    display: inline-block;
+}
+
+#link{
+    display: inline-block;
+    
+}
